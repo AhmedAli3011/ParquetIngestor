@@ -18,12 +18,14 @@ A Spring Boot application that reads data from Parquet files and sends it to Ela
 ```bash
 git clone https://github.com/Ahmedali3011/ParquetIngestor.git
 cd ParquetIngestor
+```
 
   ### 2.Place Parquet Files
-
+```bash
 /your-parent-folder
 ├── Parquet/          ← Put your `.parquet` files here
 ├── ParquetIngestor/   ← The Spring Boot project
+```
 
   ### 3. Start Elasticsearch
 
@@ -36,9 +38,10 @@ If you don’t have Elasticsearch installed:
 ```bash
 cd elasticsearch-x.x.x
 ./bin/elasticsearch
-
+```
 
   ### 4. Run the Spring Boot App
 ```bash
 cd ParquetIngestor
 ./mvnw spring-boot:run
+```
